@@ -17,5 +17,9 @@ res.render('index');
 app.get('/read',(req,res)=>{
     res.render('read');
     })
+
+    app.get('/',(req,res)=>{
+        res.send('i have make another change in it');
+    })
    
 app.listen(4001);
